@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Elements Reference</title>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<?php
+echo '<pre>';
+
+// Mostra todo o resultado do comando do shell "ls", e retorna
+// a última linha da saída em $last_line. Guarda o valor de retorno
+// do comando shell em $retval.
+$last_line = system('ls', $retval);
+
+// Mostrando informação adicional
+echo '
+</pre>
+<hr />Última linha da saída: '.$last_line.'
+<hr />Valor de Retorno: '.$retval;
+?>
+</body>
+</html> 
