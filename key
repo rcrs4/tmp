@@ -1,1 +1,1 @@
-{kty=oct, kid=HS256, alg=HS256, secret=12345}
+{kty=oct, kid=HS256, alg=HS256}
