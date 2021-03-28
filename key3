@@ -1,1 +1,4 @@
-{"kty":"oct", "alg":"HS256", "k":"FdFYFzERwC2uCBB46pZQi4GG85LujR8obt-KWRBICVQ"}
+{"HS256":
+        [
+        {"kty":"oct", "alg":"HS256", "k":"FdFYFzERwC2uCBB46pZQi4GG85LujR8obt-KWRBICVQ"}]
+}
